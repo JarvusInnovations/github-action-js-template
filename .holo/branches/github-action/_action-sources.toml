@@ -1,0 +1,9 @@
+[holomapping]
+#holosource = "action-sources" # implied by filename, refers to local repo name in .holo/config.toml
+
+# include only what's relevant to the action running
+files = [
+    "action.yml",
+    "*.js",
+    "package*.json"
+]
